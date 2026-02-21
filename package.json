@@ -1,0 +1,22 @@
+{
+    "name": "x-466904-recreational",
+    "version": "1.0.0",
+    "description": "[BUILD AGENT GENERATED]:  A comprehensive application for managing recreational facility bookings including swimming pools, walking tracks, shuttle courts, football ground, cricket grounds, and golf course. Features include slot booking, staff management, external API integration, and self-service portal.",
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk install",
+        "transform": "now-sdk transform",
+        "types": "now-sdk dependencies"
+    },
+    "dependencies": {
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+        "@servicenow/sdk": "4.2.0",
+        "@servicenow/glide": "26.0.1",
+        "eslint": "8.50.0",
+        "@servicenow/eslint-plugin-sdk-app-plugin": "4.2.0"
+    }
+}
