@@ -117,6 +117,10 @@ declare global {
                         table: 'sys_ws_version'
                         id: 'bc205caaa19e47608dedfc41fb1f985c'
                     }
+                    br_booking_notification: {
+                        table: 'sys_script'
+                        id: '205b389a804b4a2aa56a35fb92ceb35a'
+                    }
                     comment_type_param: {
                         table: 'sys_ws_query_parameter'
                         id: 'c468bdef4dfc4b2ba322286dd3ba8d3d'
@@ -193,9 +197,25 @@ declare global {
                         table: 'sys_module'
                         id: 'cf3500c6246b4748a37bc378b84580da'
                     }
+                    'src_server_business-rules_booking-notification-handler_js': {
+                        table: 'sys_module'
+                        id: 'e7abebb1a55f443688a0cc0c140caf61'
+                    }
                     'src_server_data-generator_js': {
                         table: 'sys_module'
                         id: '46965ffa6c5c48a3a5be830586fee032'
+                    }
+                    'src_server_script-includes_booking-notification-handler_js': {
+                        table: 'sys_module'
+                        id: '63719d21aa564eb08dfe5db09f0bd904'
+                    }
+                    'src_server_ui-actions_configure-notifications_js': {
+                        table: 'sys_module'
+                        id: 'c9148fbe99bb4fe5984ef7be5ac3ce01'
+                    }
+                    'src_server_ui-actions_test-all-notifications_js': {
+                        table: 'sys_module'
+                        id: 'e5b54ebfcd504b5fadd48f637042317f'
                     }
                     staff_1: {
                         table: 'x_466904_recreatio_staff'
